@@ -26,8 +26,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/"
 "buglist.cgi?component=Translations&product=Website&resolution=---\n"
 "POT-Creation-Date: 2024-04-02 13:19+0200\n"
-"PO-Revision-Date: 2025-12-21 01:00+0000\n"
-"Last-Translator: Frédéric Mergey <fmergey@yahoo.com>\n"
+"PO-Revision-Date: 2025-12-21 18:00+0000\n"
+"Last-Translator: Anastasios Ikonomou <anastasios.ikonomou@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnucash/website/"
 "fr/>\n"
 "Language: fr\n"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: 2.6-release-tour.phtml:3
 msgid "GnuCash 2.6 release tour"
-msgstr "GnuCash %s tour d'horizon"
+msgstr "GnuCash 2.6 tour d'horizon"
 
 #: 2.6-release-tour.phtml:4
 msgid ""
@@ -327,7 +327,7 @@ msgid ""
 msgstr ""
 "Avec l'accord de tous les auteurs, nous avons changé la licence de <span "
 "class=\"gnucash\">GnuCash</span> à GNU General Public License Version 2 ou "
-"plus tard au lieu de juste Version 2."
+"supérieure au lieu de juste Version 2."
 
 #: 2.6-release-tour.phtml:163 docs.phtml:62 docs.phtml:207 docs.phtml:339
 #: download.phtml:4
@@ -513,11 +513,11 @@ msgid ""
 "class=\"gnucash\">GnuCash</span> with a tutorial to show how to put those "
 "concepts into practice."
 msgstr ""
-"Le <b>Manuel de GnuCash</b> traite brièvement les fonctionnalités principale "
-"de <span class=\"gnucash\">GnuCash</span> et comment les utiliser. Le "
-"<b>Guide des Concepts</b> est une ressource beaucoup plus approfondie qui "
-"offre des leçons sur chacun des concepts de la comptabilité avec <span class="
-"\"gnucash\">GnuCash</span> par l'entremise de tutoriels."
+"Le <b>Manuel de GnuCash</b> présente brièvement les fonctionnalités "
+"principales de <span class=\"gnucash\">GnuCash</span> et la manière de les "
+"utiliser. Le <b>Guide des Concepts</b> est une ressource beaucoup plus "
+"approfondie qui offre des leçons sur chacun des concepts de la comptabilité "
+"avec <span class=\"gnucash\">GnuCash</span> par l'entremise de tutoriels."
 
 #. Translators: If wiki pages in your laguage exists, consider to replace "De"/"Deutsch" by your language.
 #: docs.phtml:39
@@ -541,8 +541,9 @@ msgstr ""
 "Merci d'envoyer vos questions à la liste de diffusion <a "
 "href=\"mailto:gnucash-user@gnucash.org\">gnucash-user</a>, si vous ne "
 "parvenez pas à trouver de réponse dans le <b>Manuel de GnuCash</b>, le <b>"
-"Guide des Concepts</b>, la FAQ, le wiki… C'est grâce à vos remarques "
-"constructives et vos retours que nous saurons améliorer la documentation."
+"Guide des Concepts</b>, la FAQ, le wiki… <b>Vos retours sont les bienvenus</"
+"b>, c'est aussi grâce à vos remarques constructives que nous saurons "
+"améliorer la documentation."
 
 #. Translators: %s is a link
 #: docs.phtml:45
@@ -763,11 +764,11 @@ msgid ""
 "donation. We are only a handfull of developers and other volunteers serving "
 "countless users worldwide."
 msgstr ""
-"<span class=\"gnucash\">GnuCash</span> est un logiciel libre et mis à "
-"disposition gratuitement. Votre don, purement facultatif, soutient notre "
-"communauté mondiale. Si vous aimez ce logiciel, pensez s'il vous plaît à "
-"faire un don. Nous ne sommes qu'une poignée de développeurs et bénévoles au "
-"service d'un nombre incalculable d'utilisateurs dans le monde entier."
+"<span class=\"gnucash\">GnuCash</span> est un logiciel libre distribué "
+"gratuitement. Votre don, purement facultatif, soutient notre communauté "
+"mondiale. Si vous aimez ce logiciel, pensez s'il vous plaît à faire un don. "
+"Nous ne sommes qu'une poignée de développeurs et de bénévoles au service "
+"d'un nombre incalculable d'utilisateurs dans le monde entier."
 
 #: donate.phtml:19
 msgid "Various ways to donate"
@@ -832,9 +833,9 @@ msgid ""
 "GnuCash is a volunteer effort. While we manage to keep our operational costs "
 "low there are inevitably expenses involved in keeping the servers running."
 msgstr ""
-"GnuCash est un travail bénévole. Bien que nous réussissons à garder nos "
-"coûts opérationnels bas, faire tourner les serveurs engendre inévitablement "
-"des frais."
+"GnuCash est une initiative bénévole. Bien que nous réussissons à garder nos "
+"coûts de fonctionnement bas, faire tourner les serveurs engendre "
+"inévitablement des frais."
 
 #: donate.phtml:49
 msgid "Your contribution will be used to cover these expenses."
@@ -1021,9 +1022,8 @@ msgstr ""
 "Si votre distribution ne gère pas <span class=\"gnucash\">GnuCash</span> ou "
 "si vous souhaitez installer une autre version que celle proposée, vous "
 "pouvez essayer de construire <span class=\"gnucash\">GnuCash</span> "
-"directement depuis le code source. Le wiki de <span class=\"gnucash\""
-">GnuCash</span> fournit des <a href='https://wiki.gnucash.org/wiki/GnuCash#"
-"Installation'>aides pour différentes distributions</a>."
+"directement depuis le code source, comme décrit dans <a href='https://"
+"wiki.gnucash.org/wiki/Building'>le wiki</a>."
 
 #: download.phtml:58 download.phtml:73 download.phtml:89
 #, php-format
@@ -1109,7 +1109,7 @@ msgstr "Problèmes de serveurs et de messagerie à transmettre à :"
 
 #: externals/footer.phtml:14
 msgid "Translation problems? Contact:"
-msgstr "Des problèmes de traduction ? Contactez :"
+msgstr "Des problèmes de traduction ? Contactez :"
 
 #: externals/global_params.php:95 externals/header.phtml:146
 msgid "Free Accounting Software"
@@ -1335,9 +1335,7 @@ msgstr ""
 msgid ""
 "A <b>summary bar</b> that displays all of the relevant account's balance "
 "information"
-msgstr ""
-"Une <b>barre récapitulative</b> qui affiche toutes les informations "
-"pertinentes relatives au solde du compte."
+msgstr "Une <b>barre récapitulative</b> qui affiche tous les soldes du compte"
 
 #: features.phtml:63
 msgid "Many options to <b>customize</b> the appearance and the display style"
@@ -1480,9 +1478,9 @@ msgid ""
 "b> and <b>Billing Terms</b>."
 msgstr ""
 "Simplifie la gestion d'une petite entreprise grâce au suivi des <b>clients</"
-"b> et <b>fournisseurs</b>, des <b>prestations</b>, <b>facturations</b> , "
-"<b>règlements des fournisseurs</b>, <b>échéances fiscales</b> et "
-"<b>conditions de paiement</b>."
+"b> et <b>fournisseurs</b>, des <b>prestations</b>, <b>facturations</b> , <b>"
+"règlements des fournisseurs</b>, <b> fiscalité</b> et <b>conditions de "
+"paiement</b>."
 
 #: features.phtml:134
 msgid ""
@@ -1498,8 +1496,8 @@ msgid ""
 "business' <b>budget</b> so that you can easily plan your financial strategy."
 msgstr ""
 "<span class=\"gnucash\">GnuCash</span> fournit également un outil de gestion "
-"du <b>budget</b> de votre entreprise, ainsi vous pouvez facilement "
-"plannifier votre stratégie financière."
+"du <b>budget</b> de votre entreprise, ainsi vous pouvez facilement planifier "
+"votre stratégie financière."
 
 #: features.phtml:143
 msgid "Multiple Currencies"
@@ -1545,7 +1543,7 @@ msgstr "Fonctionnalités de stockage et de transmission de données"
 
 #: features.phtml:171
 msgid "Experimental database support"
-msgstr "Support de base de données expérimentales"
+msgstr "Support expérimental de bases de données"
 
 #: features.phtml:173
 msgid ""
@@ -1554,10 +1552,10 @@ msgid ""
 "financial data can be stored in a <b>SQL database</b> using <b>SQLite3</b>, "
 "<b>MySQL</b> or <b>PostgreSQL</b>."
 msgstr ""
-"En complément du format xml de base, depuis la version 2.4, vos données "
-"financières <span class=\"gnucash\">GnuCash</span> peuvent être stockées "
-"dans une <b>base de données SQL</b> selon la séléction de votre application "
-"(<b>SQLite3</b>, <b>MySQL</b> ou <b>PostgreSQL</b>)."
+"<span class=\"gnucash\">GnuCash</span> enregistre ses données par défaut au "
+"format <b>xml</b> . Depuis la version 2.4, vos données financières <span "
+"class=\"gnucash\">GnuCash</span> peuvent être stockées dans une <b>base de "
+"données SQL</b>, au choix <b>SQLite3</b>, <b>MySQL</b> ou <b>PostgreSQL</b>."
 
 #: features.phtml:174
 msgid ""
