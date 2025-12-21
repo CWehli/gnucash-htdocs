@@ -26,8 +26,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/"
 "buglist.cgi?component=Translations&product=Website&resolution=---\n"
 "POT-Creation-Date: 2024-04-02 13:19+0200\n"
-"PO-Revision-Date: 2025-12-20 22:00+0000\n"
-"Last-Translator: Anastasios Ikonomou <anastasios.ikonomou@gmail.com>\n"
+"PO-Revision-Date: 2025-12-21 01:00+0000\n"
+"Last-Translator: Frédéric Mergey <fmergey@yahoo.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnucash/website/"
 "fr/>\n"
 "Language: fr\n"
@@ -1332,11 +1332,12 @@ msgstr ""
 "registre"
 
 #: features.phtml:62
-#, fuzzy
 msgid ""
 "A <b>summary bar</b> that displays all of the relevant account's balance "
 "information"
-msgstr "Une <b>barre de résumé</b> qui affiche tous les soldes des comptes"
+msgstr ""
+"Une <b>barre récapitulative</b> qui affiche toutes les informations "
+"pertinentes relatives au solde du compte."
 
 #: features.phtml:63
 msgid "Many options to <b>customize</b> the appearance and the display style"
@@ -1359,15 +1360,14 @@ msgstr ""
 "paramétrer une alarme quand une transaction arrive à échéance."
 
 #: features.phtml:76
-#, fuzzy
 msgid ""
 "An assistant that runs when <span class=\"gnucash\">GnuCash</span> is "
 "started allows scheduled transactions to be postponed without canceling or "
 "entering them before the due date."
 msgstr ""
-"Un assistant, lancé dès que <span class=\"gnucash\">GnuCash</span> est "
-"ouvert, vous permet de reporter une transaction récurrente sans l'annuler ou "
-"la saisir avant l'échéance."
+"Un assistant qui s'exécute au démarrage de <span class=\"gnucash\">GnuCash</"
+"span> permet de reporter les transactions planifiées sans les annuler ni les "
+"saisir avant la date d'échéance."
 
 #: features.phtml:82 index.phtml:80
 msgid "Reports, Graphs"
@@ -1544,9 +1544,8 @@ msgid "Data storage and exchange features"
 msgstr "Fonctionnalités de stockage et de transmission de données"
 
 #: features.phtml:171
-#, fuzzy
 msgid "Experimental database support"
-msgstr "Support de base de données"
+msgstr "Support de base de données expérimentales"
 
 #: features.phtml:173
 msgid ""
