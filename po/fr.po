@@ -11,7 +11,7 @@
 # aleksej0R <omolice@hotmail.fr>, 2022, 2023, 2024.
 # Dchab <daniel.chabot@lilo.org>, 2023.
 # CPavRou <mag@cleparo.fr>, 2024.
-# Anastasios Ikonomou <anastasios.ikonomou@gmail.com>, 2024.
+# Anastasios Ikonomou <anastasios.ikonomou@gmail.com>, 2024, 2025.
 # Frédéric Mergey <fmergey@yahoo.com>, 2025.
 #
 # Quelques propositions de traductions :
@@ -26,8 +26,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/"
 "buglist.cgi?component=Translations&product=Website&resolution=---\n"
 "POT-Creation-Date: 2024-04-02 13:19+0200\n"
-"PO-Revision-Date: 2025-10-05 22:02+0000\n"
-"Last-Translator: Frédéric Mergey <fmergey@yahoo.com>\n"
+"PO-Revision-Date: 2025-12-20 22:00+0000\n"
+"Last-Translator: Anastasios Ikonomou <anastasios.ikonomou@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/gnucash/website/"
 "fr/>\n"
 "Language: fr\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: 2.6-release-tour.phtml:3
 msgid "GnuCash 2.6 release tour"
@@ -200,7 +200,7 @@ msgid ""
 "read-only mode."
 msgstr ""
 "Le nouveau bouton pour ouvrir un fichier <span class=\"gnucash\">GnuCash</"
-"span> en mode lecture seule :"
+"span> en mode lecture seule."
 
 #: 2.6-release-tour.phtml:103
 msgid "Save \"Filter By\" settings"
@@ -538,11 +538,11 @@ msgid ""
 "and Concepts Guide</b>. We <b>want</b> feedback from you, it is also through "
 "your comments that we know how to improve the documentation."
 msgstr ""
-"Merci d'envoyer vos questions à la liste de diffusion <a href='mailto"
-":gnucash-user@gnucash.org'>gnucash-user</a>, si vous ne parvenez pas à "
-"trouver de réponse dans le <b>Manuel de GnuCash</b>, le <b>Guide des "
-"Concepts</b>, la FAQ, le wiki… C'est grâce à vos remarques constructives et "
-"vos retours que nous saurons améliorer la documentation."
+"Merci d'envoyer vos questions à la liste de diffusion <a "
+"href=\"mailto:gnucash-user@gnucash.org\">gnucash-user</a>, si vous ne "
+"parvenez pas à trouver de réponse dans le <b>Manuel de GnuCash</b>, le <b>"
+"Guide des Concepts</b>, la FAQ, le wiki… C'est grâce à vos remarques "
+"constructives et vos retours que nous saurons améliorer la documentation."
 
 #. Translators: %s is a link
 #: docs.phtml:45
@@ -850,9 +850,10 @@ msgid ""
 "program inclusive documentation or the source files here. Several versions "
 "are available for recent and older operating systems."
 msgstr ""
-"Téléchargez les paquets exécutables du programme GnuCash, ainsi que la "
-"documentation ou les fichiers source ici. Plusieurs versions sont "
-"disponibles pour des systèmes d'exploitation récents ou anciens."
+"Téléchargez les paquets exécutables du programme <span class=\"gnu cash\">"
+"GnuCash</span>, ainsi que la documentation ou les fichiers source ici. "
+"Plusieurs versions sont disponibles pour des systèmes d'exploitation récents "
+"ou anciens."
 
 #: download.phtml:13
 msgid "Download GnuCash"
@@ -1060,13 +1061,12 @@ msgid "Old Stable release (%s)"
 msgstr "Ancienne version stable (%s)"
 
 #: download.phtml:83
-#, fuzzy
 msgid ""
 "This old stable release is the final version of all bugfixes from the "
 "previous stable series without being a major upgrade."
 msgstr ""
 "Cette ancienne version stable est la version finale de tous les correctifs "
-"de bugs de la série stable précédente, sans aucune mise à jour majeure."
+"de bugs de la série stable précédente, sans être une mise à jour majeure."
 
 #: download.phtml:84
 #, php-format
@@ -1236,7 +1236,6 @@ msgid "Features"
 msgstr "Fonctionnalités"
 
 #: features.phtml:4
-#, fuzzy
 msgid ""
 "<span class=\"gnucash\">GnuCash</span> is powerful accounting software. "
 "Below are details of some of the numerous features that <span "
@@ -1308,7 +1307,7 @@ msgid ""
 msgstr ""
 "Le livre/registre supporte les transactions sur un compte courant comme les "
 "chèques et carte de crédit, mais aussi les opérations sur le revenu, les "
-"actions et devises."
+"actions et devises :"
 
 #: features.phtml:58
 msgid "The ability to enter <b>split transactions</b>"
@@ -1326,12 +1325,11 @@ msgid "<b>Autofill</b> of entered transactions"
 msgstr "<b>Remplissage automatique</b> des transactions saisies"
 
 #: features.phtml:61
-#, fuzzy
 msgid ""
 "The ability to display <b>multiple accounts</b> in a single register window"
 msgstr ""
-"<b>Plusieurs comptes</b> peuvent être affichés en même temps dans une "
-"fenêtre de livre/registre"
+"La possibilité d'afficher <b>plusieurs comptes</b> dans une seule fenêtre de "
+"registre"
 
 #: features.phtml:62
 #, fuzzy
@@ -1551,7 +1549,6 @@ msgid "Experimental database support"
 msgstr "Support de base de données"
 
 #: features.phtml:173
-#, fuzzy
 msgid ""
 "<span class=\"gnucash\">GnuCash</span> by default stores data in an <b>xml</"
 "b> format. Starting with version 2.4, <span class=\"gnucash\">GnuCash</span> "
@@ -1561,7 +1558,7 @@ msgstr ""
 "En complément du format xml de base, depuis la version 2.4, vos données "
 "financières <span class=\"gnucash\">GnuCash</span> peuvent être stockées "
 "dans une <b>base de données SQL</b> selon la séléction de votre application "
-"(SQLite3, MySQL ou PostgreSQL)."
+"(<b>SQLite3</b>, <b>MySQL</b> ou <b>PostgreSQL</b>)."
 
 #: features.phtml:174
 msgid ""
@@ -1624,7 +1621,7 @@ msgid ""
 "protocol, allowing German users to perform statement download and initiate "
 "bank transfers and direct debits."
 msgstr ""
-"<span class=\"gnucash\">GnuCash</span est le premier logiciel libre à "
+"<span class=\"gnucash\">GnuCash</span> est le premier logiciel libre à "
 "supporter le format allemand HBCI <b>Home Banking Computer Information</b>, "
 "permettant à ses utilisateurs de débiter ou de virer des sommes directement "
 "de leur compte bancaire."
@@ -1703,7 +1700,6 @@ msgid "User Manual and Help"
 msgstr "Manuel de l'utilisateur et aide"
 
 #: features.phtml:249
-#, fuzzy
 msgid ""
 "<span class=\"gnucash\">GnuCash</span> is very well documented: along with "
 "the application <b>Manual</b>, new users can take full advantage of the "
@@ -1712,12 +1708,12 @@ msgid ""
 "class=\"gnucash\">GnuCash</span> with many practical examples described step "
 "by step."
 msgstr ""
-"<span class=\"gnucash\">GnuCash</span> est très bien documenté : avec le "
-"<b>Manuel</b> de l'application, les nouveaux utilisateurs peuvent en "
-"apprendre plus avec le <b>Tutoriel et Guide des Concepts</b>. Ce document "
-"donne des informations génerales sur les principes de la comptabilité et "
-"leur mise en application dans <span class=\"gnucash\">GnuCash</span> à "
-"l'aide d'exemples pratiques, détaillés étape par étape."
+"<span class=\"gnucash\">GnuCash</span> est très bien documenté : avec le <b>"
+"Manuel</b> de l'application, les nouveaux utilisateurs peuvent en apprendre "
+"plus avec le <b>Tutoriel et Guide des Concepts</b>. Ce document donne des "
+"informations génerales sur les principes de la comptabilité et leur mise en "
+"application dans <span class=\"gnucash\">GnuCash</span> à l'aide d'exemples "
+"pratiques, détaillés étape par étape."
 
 #: index.phtml:10
 msgid "Welcome to GnuCash.org"
@@ -1743,10 +1739,8 @@ msgid "Instructions"
 msgstr "Instructions"
 
 #: index.phtml:31
-#, fuzzy
-#| msgid "More downloads (Source, Development …)"
 msgid "More downloads (Source code, Development …)"
-msgstr "Plus de téléchargements (source, développement …)"
+msgstr "Plus de téléchargements (sources, développement …)"
 
 #: index.phtml:38
 #, php-format
@@ -1808,7 +1802,7 @@ msgid ""
 "Try the"
 msgstr ""
 "Vous cherchez quelqu'un à contacter sur <span class=\"gnucash\">GnuCash</"
-"span>? Essayez la"
+"span> ? Essayez la"
 
 #: index.phtml:66
 msgid ""
