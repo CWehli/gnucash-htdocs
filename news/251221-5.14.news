@@ -1,0 +1,117 @@
+<b>Announcement:</b> GnuCash 5.14 Released
+2025-12-21
+
+<h2>GnuCash 5.14 Released</h2>
+
+<p>The GnuCash development team announces GnuCash 5.14, the fifteenth release in the stable 5.x series.</p>
+
+<h4>Between 5.13 and 5.14, the following bugfixes were accomplished:</h4>
+<ul>
+    <li><a href="https://bugs.gnucash.org/show_bug.cgi?id=799504">Bug 799504 - Description of CAMT 053.001.02 has duplicate text</a></li>
+    <li><a href="https://bugs.gnucash.org/show_bug.cgi?id=799538">Bug 799538 - Clipboard pastes to wrong field in SX editor</a> Fixed Cut, Copy and Paste when focus is not in GnucashSheet.  Now, when the user clicks on the &quot;Scheduled Transactions&quot; tab, the focus goes to the last edited cell. </li>
+    <li><a href="https://bugs.gnucash.org/show_bug.cgi?id=799682">Bug 799682 - Unable to &quot;Save As&quot; (or open) a non-xml data file</a></li>
+    <li><a href="https://bugs.gnucash.org/show_bug.cgi?id=799699">Bug 799699 - Inconsistent column headers in scheduled transaction editor</a> Template transactions can&#39;t have totals, the formulas are just strings. Don&#39;t display the Tot Foo labels, they confuse users. </li>
+    <li><a href="https://bugs.gnucash.org/show_bug.cgi?id=799701">Bug 799701 - SX Editor error When Frequency=Once</a></li>
+    <li><a href="https://bugs.gnucash.org/show_bug.cgi?id=799702">Bug 799702 - build breaks with guile 3.0.11</a></li>
+</ul>
+
+<h4>The following fixes and improvements were not associated with bug reports:</h4>
+<ul>
+    <li>Fix crashes in processing invoices and creating mulit-commodity transactions due to premature destruction of the account tree view. This unfortunately un-fixes <a href="https://bugs.gnucash.org/show_bug.cgi?id=799249">Bug 799249</a></li>
+    <li>Change the Transaction report when show subtotals only is selected: When Show only subtotals is selected (which suppresses display of individual transactions) the lowest level of subtotals is displayed in normal type and with just the category name instead of in bold type with a "Total of" prefix.</li>
+    <li>Make the version information and the configured paths part of the About Dialog selectable.</li>
+    <li>About dialog: Use the environment variable names for user directory labels instead of capitalized versions of the variables in gnc-filepath-utils. The environment variables are documented in the wiki and are what the user can change. </li>
+    <li>Protect the special environment file prefix variables. <a href="https://lists.gnucash.org/pipermail/gnucash-user/2025-November/118103.html">A mailing list post</a> reported that GnuCash crashes when he runs it with GNC_HOME=&lt;somewhere random&gt;. We use GNC_HOME to set XDG_DATA_DIR in the environment file to accommodate relocating GnuCash on macOS and Windows and GnuCash crashes when the schemas aren&#39;t found so prevent the user from setting the 6 special environment variables either from the environment or by editing the environment file. </li>
+    <li>Add a Postponed column to the Scheduled Transactions list as requested by <a href="https://bugs.gnucash.org/show_bug.cgi?id=799664">Bug 799664</a>.  The column is hidden by default since it&#39;s not useful to people who don&#39;t postpone scheduled transaction instances. </li>
+    <li>Fix the overly-narrow text boxes in the options dialogs.</li>
+    <li>Improve the algorithm behind autoclearing transactions. It can now handle up to 30 uncleared transactions in an account reasonably quickly.</li>
+    <li>Fix stale account balances and grand total during transaction import</li>
+    <li>Removed China Merchants Bank from quote sources. The Finance::Quote module is no longer working and will be removed in the next release.</li>
+    <li>Added US Bonds (usbonds) to gnc-commodity.cpp New Finance::Quote module to get prices for series E, EE, or I bonds</li>
+    <li>Bulgarian Lev (BGN) replaced by Euro 1 Jan 2026.</li>
+    <li>SRFI-64 test-equal no longer considers exceptions equal to #f.</li>
+    <li>Improve some translatable strings.</li>
+    <li>Xml Backend: speed up parsing of node text and of GUIDs.</li>
+    <li>A variety of leak fixes and efficiency improvements.</li>
+    <li>Replace deprecated g_binding_get_target, and increase glib version to 2.68</li>
+    <li>API change: Remove gnc_account_foreach_split reverse iteration, not used by GnuCash.</li>
+    <li>Reset gui component session when saving a new file, including Save As of an existing book, reset the managed gui components to the new session prior to clearing the old session. </li>
+</ul>
+<p>New and Updated Translations: Arabic, Chinese (Simplified Han script), Croatian, Danish, Dutch, French, German, Hungarian, Indonesian, Macedonian, Portuguese, Russian, Serbian, Spanish, Swedish, Tamil, Turkish, Ukrainian</p>
+<a href="https://hosted.weblate.org/engage/gnucash/">Help translate GnuCash on Weblate</a>
+
+<h4>Known Problems</h4>
+<p><a href="https://bugs.gnucash.org/buglist.cgi?bug_severity=blocker&amp;bug_severity=critical&amp;bug_severity=major&amp;bug_severity=normal&amp;bug_severity=minor&amp;bug_severity=trivial&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=NEEDINFO&amp;bug_status=REOPENED&amp;limit=0&amp;list_id=8149&amp;order=priority%2Cbug_severity&amp;query_format=advanced">Complete list of all open bugs.</a></p>
+
+<h2>Documentation</h2>
+<h4>Between 5.13 and 5.14 no bug fixes were accomplished.</h4>
+<h4>The following fixes and improvements were not associated with bug reports:</h4>
+<ul>
+    <li><a href="https://bugs.gnucash.org/show_bug.cgi?id=799504">Bug 728910 - budget balance sheet report liability problem</a></li>
+</ul>
+
+<p>Updated Translations: None.</p>
+
+<h3>Getting GnuCash for Windows and MacOS</h3>
+<p>GnuCash is provided for both Microsoft Windows 10&reg; and later
+    and MacOS 10.13 (High Sierra)&reg; and later in pre-built, all-in-one
+    packages. An installer is provided for Microsoft Windows&reg; while
+    the MacOS&reg; package is a disk image containing a drag-and-drop
+    application bundle.</p>
+
+<p>GnuCash is also available as a flatpak from Flathub.org. <a href="https://wiki.gnucash.org/wiki/Flatpak">Instructions for installing and running.</a></p>
+
+<p>The SHA256 Hashes for the downloadable files are:</p>
+<ul>
+    <li><code>0c6fd20214da86a9a0443359f7b62d9a2bd4ed802fd680853da4b757a371ac91</code>&nbsp;&nbsp;gnucash-5.14.tar.bz2</li>
+    <li><code>0cb67a105fc806fc3bf31459eb1f68d3935d382f6e2e6631762f191b5e05589e</code>&nbsp;&nbsp;gnucash-5.14.tar.gz</li>
+    <li><code>de3d1dbd84b4ed0a5186d6def95a2273cd69771a9d8e9311e72a43df01b37157</code>&nbsp;&nbsp;gnucash-5.14.setup.exe</li>
+    <li><code>0e424f0a82486852ff14373483c849c6918b49738b7be2fe64c88c7e95080a89</code>&nbsp;&nbsp;Gnucash-Arm-5.14.dmg</li>
+    <li><code>e1619de5d9307b6ba6d389d2a8b944485643c56d485d435b5f17383986717eb1</code>&nbsp;&nbsp;Gnucash-Intel-5.14.dmg</li>
+    <li><code>62f6f64b06ac1fe4c00efe5138a2fd1adc77c18223e88878d27ecc02df680588</code>&nbsp;&nbsp;gnucash-docs-5.14.tar.gz</li>
+</ul>
+
+<ul>
+    <li>SourceForge:
+        <ul>
+            <li><a href="https://downloads.sourceforge.net/gnucash/gnucash%20%28stable%29/5.14/gnucash-5.14.setup.exe">Win32</a></li>
+            <li><a href="https://downloads.sourceforge.net/gnucash/gnucash%20%28stable%29/5.14/Gnucash-Arm-5.14.dmg">Mac-Apple Silicon</a></li>
+            <li><a href="https://downloads.sourceforge.net/gnucash/gnucash%20%28stable%29/5.14/Gnucash-Intel-5.14.dmg">Mac-Intel</a></li>
+        </ul></li>
+    <li>Github
+        <ul>
+            <li><a href="https://github.com/Gnucash/gnucash/releases/download/5.14/gnucash-5.14.setup.exe">Win32</a></li>
+            <li><a href="https://github.com/Gnucash/gnucash/releases/download/5.14/Gnucash-Arm-5.14.dmg">Mac-Apple Silicon</a></li>
+            <li><a href="https://github.com/Gnucash/gnucash/releases/download/5.14/Gnucash-Intel-5.14.dmg">Mac-Intel</a></li>
+        </ul></li></ul>
+
+<h3>Getting GnuCash as source code</h3>
+<p>If you want to compile GnuCash 5.14 for yourself, the source code can be downloaded from:</p>
+<ul>
+
+    <li>Sourceforge: <a href="https://downloads.sourceforge.net/gnucash/gnucash%20%28stable%29/5.14/gnucash-5.14.tar.bz2">bzip2</a>, <a href="https://downloads.sourceforge.net/gnucash/gnucash%20%28stable%29/5.14/gnucash-5.14.tar.gz">gzip</a>.</li>
+
+    <li>Github: <a href="https://github.com/Gnucash/gnucash/releases/download/5.14/gnucash-5.14.tar.bz2">bzip</a>, <a href="https://github.com/Gnucash/gnucash/releases/download/5.14/gnucash-5.14.tar.gz">gzip</a></li>
+
+    <li>You can also checkout the sources directly from the git repository as <a href="https://wiki.gnucash.org/wiki/Git">described here.</a></li>
+</ul>
+
+<p>To compile GnuCash from the source code by yourself, you will need at least <a href="https://www.gtk.org">Gtk+</a> 3.22.30, <a href="https://www.gnu.org/software/guile/">Guile</a> 2.0.9, <a href="https://www.boost.org/">Boost</a> 1.67, <a href="https://webkitgtk.org/">WebKitGtk</a> 2.4, <a href="https://github.com/google/googletest">GoogleTest</a> 1.8.0, <a href="https://cmake.org/">cmake 3.14.5</a> and <a href="http://www.swig.org/">SWIG</a> 3.0.12. Please consult the README.dependencies file in the sources for the exact list of dependencies and versions.</p>
+
+<h3>Getting the documentation</h3>
+
+<p>The documentation is available at <a href="https://www.gnucash.org/docs.phtml">Documentation page</a> of the <a href="https://www.gnucash.org/">GnuCash website</a>. The 5.14 documentation can be found under "GnuCash v5 (current stable release)" in multiple languages both for reading online and for download in pdf, epub, and mobi formats. The documentation is also included in the MacOS and Windows application bundles.</p>
+
+<p>If you want to compile the GnuCash Documentation 5.14 for yourself, the source code can be downloaded from:</p>
+<ul>
+    <li><a href="https://downloads.sourceforge.net/gnucash/gnucash%20%28stable%29/5.14/gnucash-docs-5.14.tar.gz">Sourceforge</a> or <a href="https://github.com/Gnucash/gnucash/releases/download/5.14/gnucash-docs-5.11.tar.gz">GitHub</a></li>
+    <li>You can also checkout the sources directly from the git repository as <a href="https://wiki.gnucash.org/wiki/Git">described here.</a></li>
+</ul>
+
+
+<h3>About the Program</h3>
+
+<p>GnuCash is a free, open source accounting program released under
+    the GNU General Public License (GPL) and available for GNU/Linux,
+    *BSD, Solaris, MacOS, and Microsoft Windows.  Programming on GnuCash
+    began in 1997, and its first stable release was in 1998.</p>
