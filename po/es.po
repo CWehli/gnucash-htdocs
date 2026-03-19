@@ -10,14 +10,15 @@
 # Luis D. Lafaurie <luis.lafaurie@tecnativa.com>, 2022.
 # Jaime Marquínez Ferrándiz <weblate@jregistros.fastmail.net>, 2022.
 # gallegonovato <fran-carro@hotmail.es>, 2023, 2024.
+# apemay <apemay.dev@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnucash-htdocs\n"
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/"
 "buglist.cgi?component=Translations&product=Website&resolution=---\n"
 "POT-Creation-Date: 2024-04-02 13:19+0200\n"
-"PO-Revision-Date: 2025-06-24 21:06+0000\n"
-"Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
+"PO-Revision-Date: 2026-03-05 16:09+0000\n"
+"Last-Translator: apemay <apemay.dev@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnucash/website/"
 "es/>\n"
 "Language: es\n"
@@ -25,11 +26,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: 2.6-release-tour.phtml:3
 msgid "GnuCash 2.6 release tour"
-msgstr "Tour de lanzamiento de GnuCash 2.6"
+msgstr "Recorrido por el lanzamiento de GnuCash 2.6"
 
 #: 2.6-release-tour.phtml:4
 msgid ""
@@ -669,7 +670,7 @@ msgstr "API"
 
 #: docs.phtml:468 externals/menu.phtml:47
 msgid "current bugfix branch"
-msgstr "rama actual para solución de fallos"
+msgstr "rama de corrección de errores actual"
 
 #: docs.phtml:485
 msgid ""
@@ -1115,7 +1116,7 @@ msgstr ""
 
 #: externals/header.phtml:3
 msgid "Subscribe to RSS feed"
-msgstr "Suscribirse al suministro RSS"
+msgstr "Suscribirse al canal RSS"
 
 #: externals/header.phtml:4
 msgid "Support the GnuCash project with a donation"
@@ -1147,7 +1148,7 @@ msgstr "Novedades"
 
 #: externals/menu.phtml:11
 msgid "Screenshots, Features"
-msgstr "Capturas de pantalla, prestaciones"
+msgstr "Capturas de pantalla, características"
 
 #: externals/menu.phtml:12
 msgid "Installation"
@@ -1199,7 +1200,7 @@ msgstr "Cómo ayudar"
 
 #: externals/menu.phtml:45
 msgid "Source Docs"
-msgstr "Documentos fuente"
+msgstr "Documentación del código fuente"
 
 #: externals/menu.phtml:51
 msgid "Browse Source Code"
