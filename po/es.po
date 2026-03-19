@@ -5,7 +5,7 @@
 # Guille <willelopz+weblate@gmail.com>, 2021.
 # Guille Lopez <willelopz@gmail.com>, 2021, 2022.
 # Adolfo Jayme Barrientos <fitojb@ubuntu.com>, 2021.
-# Francisco Serrador <fserrador@gmail.com>, 2021, 2022, 2024, 2025.
+# Francisco Serrador <fserrador@gmail.com>, 2021, 2022, 2024, 2025, 2026.
 # Eduardo Malaspina <vaio0@swismail.com>, 2022.
 # Luis D. Lafaurie <luis.lafaurie@tecnativa.com>, 2022.
 # Jaime Marquínez Ferrándiz <weblate@jregistros.fastmail.net>, 2022.
@@ -17,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/"
 "buglist.cgi?component=Translations&product=Website&resolution=---\n"
 "POT-Creation-Date: 2024-04-02 13:19+0200\n"
-"PO-Revision-Date: 2026-03-05 16:09+0000\n"
-"Last-Translator: apemay <apemay.dev@gmail.com>\n"
+"PO-Revision-Date: 2026-03-19 19:09+0000\n"
+"Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/gnucash/website/"
 "es/>\n"
 "Language: es\n"
@@ -232,7 +232,7 @@ msgstr "Vistas generales de clientes y proveedores"
 
 #: 2.6-release-tour.phtml:124
 msgid "Customer Overview Reports"
-msgstr "Informes generales de cliente"
+msgstr "Informes Generales de Cliente"
 
 #: 2.6-release-tour.phtml:125
 msgid "Existing Transactions may be reassigned as invoice payments"
@@ -265,7 +265,7 @@ msgstr "Re-ordene asientos de facturas en la ventana de facturas"
 
 #: 2.6-release-tour.phtml:137
 msgid "Customer report with an invoice and a credit note."
-msgstr "Informes de cliente con factura y anotaciones crediticias."
+msgstr "Informes de cliente con factura y anotaciones de crédito."
 
 #: 2.6-release-tour.phtml:147
 msgid ""
@@ -995,7 +995,7 @@ msgstr "%s de Flatpak"
 
 #: download.phtml:51
 msgid "Known Issues and other details"
-msgstr "Problemas conocidos y otros detalles"
+msgstr "Incidencias conocidas y otros detalles"
 
 #: download.phtml:55 index.phtml:18
 msgid "Source code"
@@ -1184,7 +1184,7 @@ msgstr "Listas de correo"
 
 #: externals/menu.phtml:34
 msgid "Bug Reports"
-msgstr "Comunicados de fallos"
+msgstr "Informe de fallos"
 
 #: externals/menu.phtml:35
 msgid "IRC (Chat)"
@@ -1496,7 +1496,7 @@ msgid ""
 msgstr ""
 "Pueden ser denominadas diferentes cuentas en monedas distintas. Los "
 "movimientos de monedas entre cuentas son completamente balanceados cuando "
-"está habilitado el doble-apunte."
+"está habilitado el asiento-doble."
 
 #: features.phtml:153
 msgid "Stock/Mutual Fund Portfolios"
@@ -1672,7 +1672,7 @@ msgstr ""
 
 #: features.phtml:237
 msgid "Mortgage &amp; Loan Repayment Assistant"
-msgstr "Hipoteca &amp; Asistente de amortización de préstamos"
+msgstr "Asistente de Hipoteca y de Amortización de Préstamo"
 
 #: features.phtml:240
 msgid ""
@@ -1752,9 +1752,9 @@ msgid ""
 "and accurate reports."
 msgstr ""
 "Diseñado para ser fácil de utilizar, a la vez que flexible y potente, <span "
-"class=\"gnucash\">GnuCash</span> le permite trazar cuentas bancarias, "
-"provisiones, ingresos y gastos. Rápido e intuitivo en su uso como un "
-"registro con casillas, está basado en principios profesionales de "
+"class=\"gnucash\">GnuCash</span> le permite seguimiento de cuentas "
+"bancarias, provisiones, ingresos y gastos. Rápido e intuitivo en su uso como "
+"un registro con casillas, está basado en principios profesionales de "
 "contabilidad para asegurar libros balanceados e informes precisos."
 
 #. Translators: %s is the link to https://wiki.gnucash.org/wiki/Contributing_to_GnuCash
@@ -1805,7 +1805,7 @@ msgstr "Funcionalidades destacadas"
 
 #: index.phtml:77
 msgid "Double-Entry Accounting"
-msgstr "Contabilidad de apunte doble"
+msgstr "Contabilidad de asiento doble"
 
 #: index.phtml:78
 msgid "Stock/Bond/Mutual Fund Accounts"
