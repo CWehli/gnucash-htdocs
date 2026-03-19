@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the gnucash package.
 # Neil Williams <linux@codehelp.co.uk>, 2006
 # Frank H. Ellenberger <frank.h.ellenberger@gmail.com>, 2020.
-# Szia Tomi <sziatomi01@gmail.com>, 2022, 2023, 2024, 2025.
+# Szia Tomi <sziatomi01@gmail.com>, 2022, 2023, 2024, 2025, 2026.
 # Kárász Attila <cult.edie@gmail.com>, 2023.
 # mocsa <csaba@feltoltve.hu>, 2023, 2024.
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/"
 "buglist.cgi?component=Translations&product=Website&resolution=---\n"
 "POT-Creation-Date: 2024-04-02 13:19+0200\n"
-"PO-Revision-Date: 2025-11-02 22:51+0000\n"
+"PO-Revision-Date: 2026-03-01 06:09+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/gnucash/"
 "website/hu/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: 2.6-release-tour.phtml:3
 msgid "GnuCash 2.6 release tour"
@@ -172,7 +172,7 @@ msgid ""
 "Note that <span class=\"gnucash\">GnuCash</span> is still a single-user "
 "program and that the database backends are still used only as a data store."
 msgstr ""
-"Ne feledje, a <span class=\"gnucash\">GnuCash </span> továbbra is "
+"Ne feledje, a <span class=\"gnucash\">GnuCash</span> továbbra is "
 "egyfelhasználós program, és az adatbázis háttérprogramokat továbbra is csak "
 "adattárolásra használja."
 
@@ -1292,8 +1292,8 @@ msgstr "<b>Felosztott tranzakciók</b> bevitelének lehetősége"
 msgid ""
 "The ability to mark a transaction as <b>cleared</b> or <b>reconciled</b>"
 msgstr ""
-"Lehetőség egy tranzakció megjelölésére <b>elszámoltként</b> vagy "
-"<b>egyeztetettként</b>"
+"Lehetőség egy tranzakció megjelölésére <b>kiegyenlítettként</b> vagy <b>"
+"egyeztetettként</b>"
 
 #: features.phtml:60
 msgid "<b>Autofill</b> of entered transactions"
@@ -1463,7 +1463,7 @@ msgid ""
 "Using A/Receivable and A/Payable accounts you can even manage <b>payrolls</"
 "b> for your employees."
 msgstr ""
-"Az S/Követelés és az S/Kifizetendő számlák használatával még az "
+"Az Sz/Követelés és az Sz/Fizetendő számlák használatával még az "
 "alkalmazottak <b>bérjegyzéke</b> is kezelhető."
 
 #: features.phtml:137
@@ -1596,7 +1596,7 @@ msgstr ""
 "szoftveralkalmazás, amely támogatja a német <b>Home Banking Computer "
 "Information (HBCI)</b> protokollt, amely lehetővé teszi a német felhasználók "
 "számára, hogy számlakivonatokat töltsenek le, valamint banki átutalásokat és "
-"fizetési megbízásokat (közvetlen terheléseket) kezdeményezzenek."
+"közvetlen beszedéseket kezdeményezzenek."
 
 #: features.phtml:205
 msgid "Multiplatform"
@@ -1816,7 +1816,7 @@ msgstr "<b>Tudjon meg többet...</b>"
 
 #: news.phtml:4
 msgid "Announcement of New Releases, Server Maintenance …"
-msgstr "Az új kiadások közleményei, szerver fenntartás…"
+msgstr "Az új kiadások közleményei, szerverkarbantartás…"
 
 #: news.phtml:12
 msgid "GnuCash News"
