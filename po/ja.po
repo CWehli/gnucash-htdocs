@@ -7,14 +7,15 @@
 # TANIGUCHI Yasuaki <yasuakit+weblate@gmail.com>, 2021.
 # "Shuuji TAKAHASHI (shuuji3)" <shuuji3@gmail.com>, 2023.
 # soramikan <sora_yana@icloud.com>, 2024.
+# Brad Hajek <brad.hajek@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnucash-htdocs r18581\n"
-"Report-Msgid-Bugs-To: https://bugs.gnucash.org/buglist.cgi?"
-"component=Translations&product=Website&resolution=---\n"
+"Report-Msgid-Bugs-To: https://bugs.gnucash.org/"
+"buglist.cgi?component=Translations&product=Website&resolution=---\n"
 "POT-Creation-Date: 2024-04-02 13:19+0200\n"
-"PO-Revision-Date: 2024-03-24 02:01+0000\n"
-"Last-Translator: soramikan <sora_yana@icloud.com>\n"
+"PO-Revision-Date: 2025-12-23 16:00+0000\n"
+"Last-Translator: Brad Hajek <brad.hajek@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/gnucash/website/"
 "ja/>\n"
 "Language: ja\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: 2.6-release-tour.phtml:3
 msgid "GnuCash 2.6 release tour"
@@ -202,7 +203,7 @@ msgstr "ビジネス機能の強化"
 #: 2.6-release-tour.phtml:120
 msgid ""
 "The business module has been revamped and we introduced some new features:"
-msgstr ""
+msgstr "ビジネスモジュールは刷新しまして新しい機能を紹介しました："
 
 #: 2.6-release-tour.phtml:122
 msgid "Credit Notes"
